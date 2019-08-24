@@ -1,3 +1,5 @@
+console.log("OBJECTS"s);
+
 const bouncer = (age) => {
     if (age >= 21) {
     console.log('no drinks for you');
@@ -34,24 +36,24 @@ const findAndLogEmployeeStatus = (employee) => {
     return employee;
 };
 
-const person ={
-    name: prompt(),
-    status: ''
-};
+// const person ={
+//     name: prompt(),
+//     status: ''
+// };
 
-findAndLogEmployeeStatus(person);
+// findAndLogEmployeeStatus(person);
 
-findAndLogEmployeeStatus({
-    name: 'lester',
-    status: ''
-});
+// findAndLogEmployeeStatus({
+//     name: 'lester',
+//     status: ''
+// });
 
-findAndLogEmployeeStatus({
-    name: 'carl clark',
-    status: ''
-});
+// findAndLogEmployeeStatus({
+//     name: 'carl clark',
+//     status: ''
+// });
 
-findAndLogEmployeeStatus({
-    name: prompt("Enter Employee Name"),
-    status: ''
-});
+// findAndLogEmployeeStatus({
+//     name: prompt("Enter Employee Name"),
+//     status: ''
+// });
